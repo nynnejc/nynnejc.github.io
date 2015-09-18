@@ -1,0 +1,411 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+
+.element {
+  animation: pulse 28s infinite;
+  height: 100%;
+  padding-top: 30px;
+}
+
+@keyframes pulse {
+  0% {
+    background-color: #DADCE0;
+  }
+  1% {
+    background-color: #D4DADF;
+  }
+  2% {
+    background-color: #DCD4E3;
+  }
+  3% {
+    background-color: #E5D5EB;
+  }
+  4% {
+    background-color: #D6D6ED;
+  }
+  5% {
+    background-color: #CBD6ED;
+  }
+  6% {
+    background-color: #BED6ED;
+  }
+  7% {
+    background-color: #BFD2EB;
+  }
+  8% {
+    background-color: #BACFEB;
+  }
+  9% {
+    background-color: #B2CBEB;
+  }
+  10% {
+    background-color: #A7C6EB;
+  }
+  11% {
+    background-color: #A4CEEB;
+  }
+  12% {
+    background-color: #A1D2EB;
+  }
+  13% {
+    background-color: #A3D6EB;
+  }
+  14% {
+    background-color: #A0DAEB;
+  }
+  15% {
+    background-color: #9ADFEB;
+  }
+  16% {
+    background-color: #91DFE3;
+  }
+  17% {
+    background-color: #8BE2DF;
+  }
+  18% {
+    background-color: #89E3DC;
+  }
+  19% {
+    background-color: #89EBD9;
+  }
+  20% {
+    background-color: #89EBD1;
+  }
+  21% {
+    background-color: #82EBC7;
+  }
+  22% {
+    background-color: #7BEBB9;
+  }
+  23% {
+    background-color: #7AEBB9;
+  } 
+  24% {
+    background-color: #7FEBAF;
+  }
+  25% {
+    background-color: #7EEBA3;
+  }
+  26% {
+    background-color: #7CEB95;
+  }
+  27% {
+    background-color: #6BEB8E;
+  }
+  28% {
+    background-color: #6EEB75;
+  }
+  29% {
+    background-color: #7EF776;
+  }
+  30% {
+    background-color: #8CEB74;
+  }
+  31% {
+    background-color: #95EB72;
+  }
+  32% {
+    background-color: #9EEB72;
+  }
+  33% {
+    background-color: #ACEB73;
+  }
+  34% {
+    background-color: #BAEB75;
+  }
+  35% {
+    background-color: #C0EB72;
+  }
+  36% {
+    background-color: #CAEB71;
+  }
+  37% {
+    background-color: #D9EB72;
+  }
+  38% {
+    background-color: #DFEB68;
+  }
+  39% {
+    background-color: #E7EB61;
+  }
+  40% {
+    background-color: #E5EB61;
+  }
+  41% {
+    background-color: #EBEA5B;
+  }
+  42% {
+    background-color: #EBE35B;
+  }
+  43% {
+    background-color: #EBDA5B;
+  }
+  44% {
+    background-color: #EBD25A;
+  }
+  45%{
+    background-color: #EBCA5B;
+  }
+  46% {
+    background-color: #EBBE58;
+  }
+  47% {
+    background-color: #EBB457;
+  }
+  48% {
+    background-color: #EBA956;
+  }
+  49% {
+    background-color: #EBA04D;
+  }
+  50% {
+    background-color: #EB9948;
+  }
+  51% {
+    background-color: #EB9041;
+  }
+  52% {
+    background-color: #EB873F;
+  }
+  53% {
+    background-color: #EB7E3B;
+  }
+  54% {
+    background-color: #EB7436;
+  }
+  55% {
+    background-color: #EB7035;
+  }
+  56% {
+    background-color: #EB6731;
+  }
+  57% {
+    background-color: #EB6231;
+  }
+  58% {
+    background-color: #EB5D32;
+  }
+  59% {
+    background-color: #EB5936;
+  }
+  60% {
+    background-color: #EB5536;
+  }
+  61% {
+    background-color: #EB533A;
+  }
+  62% {
+    background-color: #EB4D3B;
+  }
+  63% {
+    background-color: #EB5045;
+  }
+  64% {
+    background-color: #EB4F4A;
+  }
+  65% {
+    background-color: #EB5450;
+  }
+  66% {
+    background-color: #FA5555;
+  }
+  67% {
+    background-color: #EB5560;
+  }
+  68% {
+    background-color: #E35465;
+  }
+  69% {
+    background-color: #F05870;
+  }
+  70% {
+    background-color: #F55B84;
+  }
+  71% {
+    background-color: #EB5C8F;
+  }
+  72% {
+    background-color: #EB5F9C;
+  }
+  73% {
+    background-color: #F063AC;
+  }
+  74% {
+    background-color: #EB65BA;
+  }
+  75% {
+    background-color: #EB65C3;
+  }
+  76% {
+    background-color: #EB67CB;
+  }
+  77% {
+    background-color: #E565D4;
+  }
+  78% {
+    background-color: #EB6AE0;
+  }
+  79% {
+    background-color: #EB72E2;
+  }
+  80% {
+    background-color: #EB7BE2;
+  }
+  81% {
+    background-color: #E583DC;
+  }
+  82% {
+    background-color: #EB8DE2;
+  } 
+  83% {
+    background-color: #EA90EB;
+  }
+  84% {
+    background-color: #E697EB;
+  }
+  85% {
+    background-color: #DD9CE5;
+  }
+  86% {
+    background-color: #DF9CEB;
+  }
+  87% {
+    background-color: #CFA3EB;
+  }
+  88% {
+    background-color: #C9A9EB;
+  }
+  89% {
+    background-color: #C5AEEB;
+  }
+  90% {
+    background-color: #C6B6EB;
+  }
+  91% {
+    background-color: #C8BEEB;
+  }
+  92% {
+    background-color: #CBC5EB;
+  }
+  93% {
+    background-color: #D1CDEB;
+  }
+  94% {
+    background-color: #D1D0EB;
+  }
+  95% {
+    background-color: #D3D4EB;
+  }
+  96% {
+    background-color: #D5D5EB;
+  }
+  87% {
+    background-color: #DADCEB;
+  }
+  98% {
+    background-color: #D3D8E3;
+  }
+  99% {
+    background-color: #D7DAE3;
+  }
+  100% {
+    background-color: #DFDEE0;
+  }
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.content-box {
+  width: 300px;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+h1 {
+  color: black;
+  font-size: 25px;
+  font-family:'Open Sans', serif;
+  text-align: center;
+    border: 5px solid white;
+}
+
+
+header {
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+ul {
+  display: none;
+  text-align: left;
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+  list-style: none;
+}
+a {
+  color: black;
+}
+
+#bio{
+  text-align: left;
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
