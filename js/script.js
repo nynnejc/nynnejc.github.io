@@ -5,4 +5,7 @@ $(document).ready(function() {
           verticalCentered: false,
           
       });
-      });
+    $(".galleryimage").click(function( event ) {
+        $(".nextimagediv").show();
+    });
+});
