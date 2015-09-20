@@ -1,6 +1,6 @@
 $(document).ready(function() {
         $('#pagepiling').pagepiling({
-          anchors: ['', '', ''],
+          anchors: ['web-development', 'photography', 'illustrations', 'cv'],
           
       });
       });
