@@ -113,78 +113,75 @@ a {
 }
 
 
-      @-webkit-keyframes pulse {
+      @-webkit-keyframes pulse { 
         0% {
           background-color: #DADCE0;
         }
         1% {
-          background-color: #D4DADF;
+          background-color: #D7DAE0;
         }
         2% {
-          background-color: #DCD4E3;
+          background-color: #D4D7E2;
         }
         3% {
-          background-color: #E5D5EB;
+          background-color: #D1D4E2;
         }
         4% {
-          background-color: #D6D6ED;
+          background-color: #CCD4E3;
         }
         5% {
-          background-color: #CBD6ED;
+          background-color: #C7D3E5;
         }
         6% {
-          background-color: #BED6ED;
+          background-color: #C4D3E6;
         }
         7% {
-          background-color: #BFD2EB;
+          background-color: #BFD3E7;
         }
         8% {
-          background-color: #BACFEB;
+          background-color: #BBD3E8;
         }
         9% {
-          background-color: #B2CBEB;
-        }
-        10% {
-          background-color: #A7C6EB;
+          background-color: #B4D4E9;
         }
         11% {
-          background-color: #A4CEEB;
+          background-color: #ACD5EA;
         }
         12% {
-          background-color: #A1D2EB;
+          background-color: #A5D5EB;
         }
         13% {
           background-color: #A3D6EB;
         }
         14% {
-          background-color: #A0DAEB;
+          background-color: #A0DAE8;
         }
         15% {
-          background-color: #9ADFEB;
+          background-color: #9ADEE6;
         }
         16% {
-          background-color: #91DFE3;
+          background-color: #91E0E3;
         }
         17% {
           background-color: #8BE2DF;
         }
         18% {
-          background-color: #89E3DC;
+          background-color: #89E4DC;
         }
         19% {
-          background-color: #89EBD9;
+          background-color: #87E6D8;
         }
         20% {
-          background-color: #89EBD1;
+          background-color: #85E9D2;
         }
         21% {
           background-color: #82EBC7;
         }
         22% {
-          background-color: #7BEBB9;
+          background-color: #81EBBB;
         }
         23% {
-          background-color: #7AEBB9;
+          background-color: #80EBB9;
         } 
         24% {
           background-color: #7FEBAF;
@@ -193,73 +190,67 @@ a {
           background-color: #7EEBA3;
         }
         26% {
-          background-color: #7CEB95;
+          background-color: #7EEE9B;
         }
         27% {
-          background-color: #6BEB8E;
+          background-color: #7EF191;
         }
         28% {
-          background-color: #6EEB75;
+          background-color: #7EF584;
         }
         29% {
           background-color: #7EF776;
         }
         30% {
-          background-color: #8CEB74;
-        }
-        31% {
-          background-color: #95EB72;
-        }
-        32% {
-          background-color: #9EEB72;
+          background-color: #91F575;
         }
         33% {
-          background-color: #ACEB73;
+          background-color: #A5F374;
         }
         34% {
-          background-color: #BAEB75;
+          background-color: #BAEE73;
         }
         35% {
           background-color: #C0EB72;
         }
         36% {
-          background-color: #CAEB71;
+          background-color: #CFEB70;
         }
         37% {
-          background-color: #D9EB72;
+          background-color: #D9EB6E;
         }
         38% {
-          background-color: #DFEB68;
+          background-color: #E3EB6C;
         }
         39% {
           background-color: #E7EB61;
         }
         40% {
-          background-color: #E5EB61;
+          background-color: #E8E85F;
         }
         41% {
-          background-color: #EBEA5B;
+          background-color: #EAE25D;
         }
         42% {
-          background-color: #EBE35B;
+          background-color: #EBDF5B;
         }
         43% {
           background-color: #EBDA5B;
         }
         44% {
-          background-color: #EBD25A;
+          background-color: #EBD15A;
         }
         45%{
-          background-color: #EBCA5B;
+          background-color: #EBC559;
         }
         46% {
-          background-color: #EBBE58;
+          background-color: #EBBC58;
         }
         47% {
           background-color: #EBB457;
         }
         48% {
-          background-color: #EBA956;
+          background-color: #EBAA53;
         }
         49% {
           background-color: #EBA04D;
@@ -271,61 +262,61 @@ a {
           background-color: #EB9041;
         }
         52% {
-          background-color: #EB873F;
+          background-color: #EB853F;
         }
         53% {
-          background-color: #EB7E3B;
+          background-color: #EB813B;
         }
         54% {
-          background-color: #EB7436;
+          background-color: #EB7837;
         }
         55% {
           background-color: #EB7035;
         }
         56% {
-          background-color: #EB6731;
+          background-color: #EB6735;
         }
         57% {
-          background-color: #EB6231;
+          background-color: #EB6235;
         }
         58% {
-          background-color: #EB5D32;
+          background-color: #EB5D36;
         }
         59% {
           background-color: #EB5936;
         }
         60% {
-          background-color: #EB5536;
+          background-color: #EB573B;
         }
         61% {
-          background-color: #EB533A;
+          background-color: #EB553D;
         }
         62% {
-          background-color: #EB4D3B;
+          background-color: #EB553D;
         }
         63% {
           background-color: #EB5045;
         }
         64% {
-          background-color: #EB4F4A;
+          background-color: #EB514E;
         }
         65% {
-          background-color: #EB5450;
+          background-color: #EB5354;
         }
         66% {
-          background-color: #FA5555;
+          background-color: #EB545C;
         }
         67% {
           background-color: #EB5560;
         }
         68% {
-          background-color: #E35465;
+          background-color: #EB576E;
         }
         69% {
-          background-color: #F05870;
+          background-color: #EB5979;
         }
         70% {
-          background-color: #F55B84;
+          background-color: #EB5A84;
         }
         71% {
           background-color: #EB5C8F;
@@ -334,10 +325,10 @@ a {
           background-color: #EB5F9C;
         }
         73% {
-          background-color: #F063AC;
+          background-color: #EB60AC;
         }
         74% {
-          background-color: #EB65BA;
+          background-color: #EB62BA;
         }
         75% {
           background-color: #EB65C3;
@@ -346,76 +337,67 @@ a {
           background-color: #EB67CB;
         }
         77% {
-          background-color: #E565D4;
+          background-color: #EB6AD2;
         }
         78% {
-          background-color: #EB6AE0;
+          background-color: #EB6DDC;
         }
         79% {
           background-color: #EB72E2;
         }
         80% {
-          background-color: #EB7BE2;
+          background-color: #EB7BE4;
         }
         81% {
-          background-color: #E583DC;
+          background-color: #EB83E6;
         }
         82% {
-          background-color: #EB8DE2;
+          background-color: #EB8DE9;
         } 
         83% {
           background-color: #EA90EB;
         }
         84% {
-          background-color: #E697EB;
+          background-color: #E49BEB;
         }
         85% {
-          background-color: #DD9CE5;
+          background-color: #DBA3EB;
         }
         86% {
-          background-color: #DF9CEB;
-        }
-        87% {
-          background-color: #CFA3EB;
+          background-color: #D1A9EB;
         }
         88% {
-          background-color: #C9A9EB;
-        }
-        89% {
-          background-color: #C5AEEB;
-        }
-        90% {
-          background-color: #C6B6EB;
+          background-color: #C8ADEB;
         }
         91% {
-          background-color: #C8BEEB;
+          background-color: #CBB4EB;
         }
         92% {
-          background-color: #CBC5EB;
+          background-color: #CDBEEB;
         }
         93% {
-          background-color: #D1CDEB;
+          background-color: #CFCAEB;
         }
         94% {
           background-color: #D1D0EB;
         }
         95% {
-          background-color: #D3D4EB;
+          background-color: #D4D3EB;
         }
         96% {
-          background-color: #D5D5EB;
+          background-color: #D7D8EB;
         }
-        87% {
+        97% {
           background-color: #DADCEB;
         }
         98% {
-          background-color: #D3D8E3;
+          background-color: #DADCE9;
         }
         99% {
-          background-color: #D7DAE3;
+          background-color: #DADCE6;
         }
         100% {
-          background-color: #DFDEE0;
+          background-color: #DADCE3;
         }
       }
 
@@ -425,28 +407,39 @@ a {
   0% {
     background-color: #DADCE0;
   }
+  1% {
+    background-color: #D7DAE0;
+  }
+  2% {
+    background-color: #D4D7E2;
+  }
   3% {
-    background-color: #D0DBE5;
+    background-color: #D1D4E2;
+  }
+  4% {
+    background-color: #CCD4E3;
+  }
+  5% {
+    background-color: #C7D3E5;
   }
   6% {
-    background-color: #C5D7E7;
+    background-color: #C4D3E6;
   }
   7% {
-    background-color: #C2D6EB;
+    background-color: #BFD3E7;
   }
   8% {
-    background-color: #BACFEB;
+    background-color: #BBD3E8;
   }
   9% {
-    background-color: #B6D2EB;
+    background-color: #B4D4E9;
   }
   11% {
-    background-color: #AFD4EB;
+    background-color: #ACD5EA;
   }
   12% {
     background-color: #A5D5EB;
   }
-
   13% {
     background-color: #A3D6EB;
   }
@@ -519,42 +512,35 @@ a {
   38% {
     background-color: #E3EB6C;
   }
-
-
-
-
-
-
-
   39% {
     background-color: #E7EB61;
   }
   40% {
-    background-color: #E5EB61;
+    background-color: #E8E85F;
   }
   41% {
-    background-color: #EBEA5B;
+    background-color: #EAE25D;
   }
   42% {
-    background-color: #EBE35B;
+    background-color: #EBDF5B;
   }
   43% {
     background-color: #EBDA5B;
   }
   44% {
-    background-color: #EBD25A;
+    background-color: #EBD15A;
   }
   45%{
-    background-color: #EBCA5B;
+    background-color: #EBC559;
   }
   46% {
-    background-color: #EBBE58;
+    background-color: #EBBC58;
   }
   47% {
     background-color: #EBB457;
   }
   48% {
-    background-color: #EBA956;
+    background-color: #EBAA53;
   }
   49% {
     background-color: #EBA04D;
@@ -566,61 +552,61 @@ a {
     background-color: #EB9041;
   }
   52% {
-    background-color: #EB873F;
+    background-color: #EB853F;
   }
   53% {
-    background-color: #EB7E3B;
+    background-color: #EB813B;
   }
   54% {
-    background-color: #EB7436;
+    background-color: #EB7837;
   }
   55% {
     background-color: #EB7035;
   }
   56% {
-    background-color: #EB6731;
+    background-color: #EB6735;
   }
   57% {
-    background-color: #EB6231;
+    background-color: #EB6235;
   }
   58% {
-    background-color: #EB5D32;
+    background-color: #EB5D36;
   }
   59% {
     background-color: #EB5936;
   }
   60% {
-    background-color: #EB5536;
+    background-color: #EB573B;
   }
   61% {
-    background-color: #EB533A;
+    background-color: #EB553D;
   }
   62% {
-    background-color: #EB4D3B;
+    background-color: #EB553D;
   }
   63% {
     background-color: #EB5045;
   }
   64% {
-    background-color: #EB4F4A;
+    background-color: #EB514E;
   }
   65% {
-    background-color: #EB5450;
+    background-color: #EB5354;
   }
   66% {
-    background-color: #FA5555;
+    background-color: #EB545C;
   }
   67% {
     background-color: #EB5560;
   }
   68% {
-    background-color: #E35465;
+    background-color: #EB576E;
   }
   69% {
-    background-color: #F05870;
+    background-color: #EB5979;
   }
   70% {
-    background-color: #F55B84;
+    background-color: #EB5A84;
   }
   71% {
     background-color: #EB5C8F;
@@ -629,10 +615,10 @@ a {
     background-color: #EB5F9C;
   }
   73% {
-    background-color: #F063AC;
+    background-color: #EB60AC;
   }
   74% {
-    background-color: #EB65BA;
+    background-color: #EB62BA;
   }
   75% {
     background-color: #EB65C3;
@@ -641,62 +627,67 @@ a {
     background-color: #EB67CB;
   }
   77% {
-    background-color: #E565D4;
+    background-color: #EB6AD2;
   }
   78% {
-    background-color: #EB6AE0;
+    background-color: #EB6DDC;
   }
   79% {
     background-color: #EB72E2;
   }
   80% {
-    background-color: #EB7BE2;
+    background-color: #EB7BE4;
   }
   81% {
-    background-color: #E583DC;
+    background-color: #EB83E6;
   }
   82% {
-    background-color: #EB8DE2;
+    background-color: #EB8DE9;
   } 
   83% {
     background-color: #EA90EB;
   }
   84% {
-    background-color: #E697EB;
+    background-color: #E49BEB;
   }
   85% {
-    background-color: #DD9CE5;
+    background-color: #DBA3EB;
   }
   86% {
-    background-color: #D3A4EB;
+    background-color: #D1A9EB;
   }
   88% {
     background-color: #C8ADEB;
   }
- 
   91% {
-    background-color: #C4B6EB;
+    background-color: #CBB4EB;
   }
   92% {
-    background-color: #C4C0EB;
+    background-color: #CDBEEB;
   }
   93% {
-    background-color: #CAC5EB;
+    background-color: #CFCAEB;
   }
-
-
-
   94% {
     background-color: #D1D0EB;
   }
   95% {
-    background-color: #D3D4EB;
+    background-color: #D4D3EB;
   }
-  87% {
+  96% {
+    background-color: #D7D8EB;
+  }
+  97% {
     background-color: #DADCEB;
   }
+  98% {
+    background-color: #DADCE9;
+  }
   99% {
-    background-color: #D7DAE3;
+    background-color: #DADCE6;
+  }
+  100% {
+    background-color: #DADCE3;
   }
 }
 
