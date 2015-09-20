@@ -76,12 +76,14 @@ header {
   color: black;
 }
 
-ul {
+.links {
   text-align: left;
   font-family: 'Open Sans', sans-serif;
   color: black;
   list-style: none;
+  padding
 }
+
 a {
   color: black;
 }
@@ -94,11 +96,15 @@ a {
 
 
 
-.element {
+.landing-page {
   -webkit-animation: pulse 28s infinite;
   animation: pulse 28s infinite;
   height: 100%;
   padding-top: 30px;
+}
+
+.content {
+  background-color: white;
 }
 
 
@@ -725,6 +731,8 @@ a {
       width: 300px;
   }
 }
+
+
 
 
 
