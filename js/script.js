@@ -2,6 +2,7 @@ $(document).ready(function() {
         $('#pagepiling').pagepiling({
           anchors: ['home', 'web-development', 'photography', 'illustrations', 'cv'],
           navigation: false,
+          verticalCentered: false,
           
       });
       });
