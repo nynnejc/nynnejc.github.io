@@ -6,6 +6,6 @@ $(document).ready(function() {
           
       });
     $(".galleryimage").click(function( event ) {
-        $(".nextimagediv").show();
+        $(".nextimagediv").first().show().removeClass("nextimagediv");
     });
 });
