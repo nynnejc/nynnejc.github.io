@@ -112,6 +112,22 @@ a {
   overflow: hidden;
 }
 
+footer {
+  background-color: #FA3002;
+  position: fixed;
+  height: 30px;
+  width: 100%;
+  z-index: 10000000;
+  bottom: 0;
+  left: 0;
+  padding: 0 0 0 5%;
+  font-size: 11px;
+  letter-spacing: .5px;
+  text-align: left;
+  line-height: 2.5em;
+  color: #999;
+}
+
 
       @-webkit-keyframes pulse { 
         0% {
