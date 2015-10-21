@@ -115,13 +115,18 @@ a {
 
 footer {
   color: #000;
+  position: fixed;
+  height: 30px;
   width: 100%;
   z-index: 10000000;
+  bottom: 0;
+  left: 0;
   padding: 10 10 10 5%;
   font-size: 14px;
   letter-spacing: .5px;
   text-align: center;
-  margin-bottom: 20 px;
+  line-height: 2.5em;
+  margin: 15px;
 }
 
 
