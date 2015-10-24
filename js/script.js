@@ -1,6 +1,6 @@
 $(document).ready(function() {
         $('#pagepiling').pagepiling({
-          anchors: ['home', 'web-development', 'projects', 'cv', 'photography'],
+          anchors: ['home', 'projects', 'contact'],
           navigation: false,
           verticalCentered: false,
           
