@@ -741,7 +741,7 @@ footer {
   left: 20px;
   width: 200px;
   height: auto;
-  z-index: 1;
+  z-index: 4;
 }
 
 .img5{
@@ -750,7 +750,7 @@ footer {
   left: 260px;
   width: 250px;
   height: auto;
-  z-index: 2;
+  z-index: 5;
 }
 
 .img6{
@@ -759,7 +759,7 @@ footer {
   left: 100px;
   width: 300px;
   height: auto;
-  z-index: 3;
+  z-index: 6;
 }
 
 .img7{
@@ -768,7 +768,7 @@ footer {
   left: 20px;
   width: 200px;
   height: auto;
-  z-index: 1;
+  z-index: 7;
 }
 
 .img8{
@@ -777,7 +777,7 @@ footer {
   left: 260px;
   width: 250px;
   height: auto;
-  z-index: 2;
+  z-index: 8;
 }
 
 .img9{
@@ -786,7 +786,7 @@ footer {
   left: 100px;
   width: 300px;
   height: auto;
-  z-index: 3;
+  z-index: 9;
 }
 
 .img10{
@@ -795,7 +795,7 @@ footer {
   left: 20px;
   width: 200px;
   height: auto;
-  z-index: 1;
+  z-index: 10;
 }
 
 .img11{
@@ -804,7 +804,7 @@ footer {
   left: 260px;
   width: 250px;
   height: auto;
-  z-index: 2;
+  z-index: 11;
 }
 
 .img12{
@@ -813,7 +813,7 @@ footer {
   left: 100px;
   width: 300px;
   height: auto;
-  z-index: 3;
+  z-index: 12;
 }
 
 .img13{
@@ -822,7 +822,7 @@ footer {
   left: 20px;
   width: 200px;
   height: auto;
-  z-index: 1;
+  z-index: 13;
 }
 
 .img14{
@@ -831,7 +831,7 @@ footer {
   left: 260px;
   width: 250px;
   height: auto;
-  z-index: 2;
+  z-index: 14;
 }
 
 .img15{
@@ -840,7 +840,7 @@ footer {
   left: 100px;
   width: 300px;
   height: auto;
-  z-index: 3;
+  z-index: 15;
 }
 
 .img16{
@@ -849,7 +849,7 @@ footer {
   left: 100px;
   width: 300px;
   height: auto;
-  z-index: 3;
+  z-index: 16;
 }
 
 .nextimagediv{
