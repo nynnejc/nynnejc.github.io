@@ -11,7 +11,7 @@ $(document).ready(function() {
 
 
 
-    var imgHTML = '<img class="img galleryimage" src="img/project_img">'
+    var imgHTML = '<img class="img galleryimage" src="img">'
 
     var add_new_img = function( event ) {
     
