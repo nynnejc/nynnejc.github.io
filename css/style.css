@@ -91,15 +91,6 @@ a {
   color: black;
 }
 
-
-.landing-page {
-  -webkit-animation: pulse 28s infinite;
-  animation: pulse 28s infinite;
-  height: 100%;
-  padding-top: 30px;
-  footer: display = none;
-}
-
 .content {
   background-color: white;
   padding: 30px;
