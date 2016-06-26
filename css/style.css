@@ -129,6 +129,10 @@ footer {
   margin: 25px;
 }
 
+.copyright-name-date {
+  display:inline;
+}
+
 
 @media only screen and (min-width: 480px){
   h1{
