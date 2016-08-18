@@ -1,0 +1,224 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/*normal*/
+html {
+  font-size: 14px; }
+
+body {
+  font-size: 100%;
+  line-height: 1.25;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 1px; }
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5; }
+
+p {
+  font-size: 1.2em; }
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25; }
+
+h2 {
+  font-size: 1.625em;
+  line-height: 1.15384615; }
+
+h3 {
+  font-size: 1.375em;
+  line-height: 1.13636364; }
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.11111111; }
+
+hr {
+  color: #f00;
+  background-color: #f00;
+  height: 5px;
+}
+
+.quote {
+  font-size: 2em;
+  line-height: 1.25; }
+
+.x_large {
+  font-size: 4em;
+  margin: 0;
+  line-height: 1;
+  text-align: left; }
+  .x_large a {
+    color: white; }
+    .x_large a:hover {
+      color: #FC571F; }
+
+.logo {
+  display: inline;
+  font-family: 'Codystar', cursive; }
+
+.content p {
+  font-size: 1.5em; }
+
+li {
+  text-align: left;
+  font-size: 1.25em; }
+
+footer {
+  padding-bottom: 7px;
+}
+
+
+/*media-qery 768px*/
+@media (min-width: 768px) {
+  body {
+    font-size: 1em;
+    line-height: 1.375; }
+
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.125; }
+
+  h2 {
+    font-size: 2em;
+    line-height: 1.25; }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25; }
+
+  h4 {
+    line-height: 1.22222222; }
+
+  .quote {
+    font-size: 2.5em;
+    line-height: 1.45833333; }
+
+  .x_large {
+    font-size: 10em; }
+
+  .nav {
+    padding-top: 13px; } }
+
+
+/*media-qery 992px*/
+@media (min-width: 992px) {
+  h1 {
+    font-size: 3em;
+    line-height: 1.05; }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.25; }
+
+  h3 {
+    font-size: 1.75em;
+    line-height: 1.25; }
+
+  .quote {
+    font-size: 3.5em;
+    line-height: 1.25; }
+
+  .x_large {
+    font-size: 8em; } }
+.subtitle {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000; }
+
+  .main {
+  background-image: url("/assets/images/selffloor.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover; }
+
+.info h3 {
+  margin: 0; }
+
+section {
+  width: 100%;
+  padding-bottom: 50px; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+a {
+  color: #FC571F;
+  text-decoration: none; }
+  a:hover {
+    color: #FC571F; }
+
+img {
+  width: 100%; }
+
+header {
+  padding: 10px; }
+  header h2 {
+    display: inline; }
+  header .nav {
+    text-align: right;
+    float: right;
+    display: inline;
+    width: 40%; }
+    header .nav a {
+      padding: 0 30px; }
+
+.main_typography {
+  padding-top: 100px; }
+
+.content-section {
+  padding-top: 100px; }
+
+#adventurer img {
+  margin: 10px 0; }
+
