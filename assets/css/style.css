@@ -109,12 +109,17 @@ hr {
 .content p {
   font-size: 1.5em; }
 
+.copyright-name-date {
+  text-align: center;
+  margin-top: 90%;
+}
+
 li {
   text-align: left;
   font-size: 1.25em; }
 
 footer {
-  padding-bottom: 7px;
+  padding-bottom: 0px;
 }
 
 
@@ -139,13 +144,6 @@ footer {
   h4 {
     line-height: 1.22222222; }
 
-  .quote {
-    font-size: 2.5em;
-    line-height: 1.45833333; }
-
-  .x_large {
-    font-size: 10em; }
-
   .nav {
     padding-top: 13px; } }
 
@@ -162,26 +160,16 @@ footer {
 
   h3 {
     font-size: 1.75em;
-    line-height: 1.25; }
+    line-height: 1.25; } }
 
-  .quote {
-    font-size: 3.5em;
-    line-height: 1.25; }
-
-  .x_large {
-    font-size: 8em; } }
 .subtitle {
   border-top: 1px solid #000;
   border-bottom: 1px solid #000; }
 
   .main {
-  background-image: url("/assets/images/selffloor.jpg");
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover; }
-
-.info h3 {
-  margin: 0; }
 
 section {
   width: 100%;
@@ -198,8 +186,6 @@ a {
   a:hover {
     color: #FC571F; }
 
-img {
-  width: 100%; }
 
 header {
   padding: 10px; }
@@ -221,4 +207,5 @@ header {
 
 #adventurer img {
   margin: 10px 0; }
+}
 
