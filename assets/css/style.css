@@ -66,6 +66,10 @@ body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2
 p {
   font-size: 1.2em; }
 
+a {
+  text-decoration: none;
+}
+
 h1 {
   font-size: 2em;
   line-height: 1.25; }
@@ -114,6 +118,8 @@ hr {
   margin-top: 90%;
 }
 
+
+
 li {
   text-align: left;
   font-size: 1.25em; }
@@ -121,6 +127,22 @@ li {
 footer {
   padding-bottom: 0px;
 }
+
+.color-logo a {
+  color: #483D8B;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.color-logo a:hover { 
+  color: #FF00FF;
+  text-decoration: none;
+}
+
 
 
 /*media-qery 768px*/
@@ -145,7 +167,8 @@ footer {
     line-height: 1.22222222; }
 
   .nav {
-    padding-top: 13px; } }
+    padding-top: 13px;
+    text-decoration: none; } }
 
 
 /*media-qery 992px*/
@@ -181,31 +204,32 @@ ul {
   padding: 0; }
 
 a {
-  color: #FC571F;
+  color: ##FF4500;
   text-decoration: none; }
   a:hover {
-    color: #FC571F; }
+    color: #4B1A09; }
 
 
 header {
+  color: #FF4500;;
   padding: 10px; }
   header h2 {
     display: inline; }
   header .nav {
+    color: #FF4500;
+    text-decoration: none;
     text-align: right;
     float: right;
     display: inline;
     width: 40%; }
     header .nav a {
-      padding: 0 30px; }
+      padding: 0 30px;
+      text-decoration: none; }
 
 .main_typography {
   padding-top: 100px; }
 
 .content-section {
   padding-top: 100px; }
-
-#adventurer img {
-  margin: 10px 0; }
 }
 
