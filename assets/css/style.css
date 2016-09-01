@@ -55,7 +55,7 @@ body {
   font-size: 100%;
   line-height: 1.25;
   color: #000;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-style: normal;
   text-align: left;
   letter-spacing: 1px; }
@@ -108,7 +108,9 @@ hr {
 
 .logo {
   display: inline;
-  font-family: 'Codystar', cursive; }
+  padding-top: 20px;
+  font-family: 'Nunito', sans-serif;
+ }
 
 .content p {
   font-size: 1.5em; }
