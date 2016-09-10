@@ -48,7 +48,9 @@ input, select { vertical-align: middle; }
 
 
 
-@font-face { font-family: Futura; src: url('../fonts/futura/Futura_ICG.ttf'); } 
+@font-face { font-family: Futura_ICG; src: url('../fonts/futura/Futura_ICG.ttf'); }
+@font-face { font-family: FuturaHeavy; src: url('../fonts/futura/FuturaHeavy.ttf'); } 
+@font-face { font-family: FuturaLight; src: url('../fonts/futura/FuturaLight.ttf'); } 
 
 
 
@@ -61,7 +63,7 @@ body {
   font-size: 100%;
   line-height: 1.25;
   color: #000;
-  font-family: 'Futura', sans-serif;
+  font-family: 'Futura_ICG', sans-serif;
   font-style: normal;
   text-align: left;
   letter-spacing: 1px; }
@@ -113,9 +115,13 @@ hr {
       color: #FC571F; }
 
 .logo {
-  display: inline;
-  padding-top: 20px;
-  font-family: 'Futura', sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: 'FuturaLight', sans-serif;
+ }
+
+ .color-nav-links {
+
  }
 
 .content p {
@@ -123,20 +129,20 @@ hr {
 
 .copyright-name-date {
   text-align: center;
-  margin-top: 90%;
 }
 
 
 
 li {
   text-align: left;
-  font-size: 1.25em; }
+  font-size: 1.25em; 
+}
 
 footer {
   padding-bottom: 0px;
 }
 
-.color-logo a {
+.logo_links a {
   color: #483D8B;
   text-decoration: none;
   -o-transition:.5s;
@@ -146,10 +152,11 @@ footer {
   transition:.5s;
 }
 
-.color-logo a:hover { 
+.logo_links a:hover { 
   color: #FF00FF;
   text-decoration: none;
 }
+
 
 
 
@@ -175,7 +182,7 @@ footer {
     line-height: 1.22222222; }
 
   .nav {
-    padding-top: 13px;
+    padding-top: 10px;
     text-decoration: none; } }
 
 
@@ -222,7 +229,7 @@ header {
   color: #FF4500;;
   padding: 10px; }
   header h2 {
-    display: inline; }
+     }
   header .nav {
     color: #FF4500;
     text-decoration: none;
