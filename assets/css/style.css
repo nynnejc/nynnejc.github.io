@@ -47,6 +47,12 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 input, select { vertical-align: middle; }
 
 
+
+@font-face { font-family: Futura; src: url('../fonts/futura/Futura_ICG.ttf'); } 
+
+
+
+
 /*normal*/
 html {
   font-size: 14px; }
@@ -55,7 +61,7 @@ body {
   font-size: 100%;
   line-height: 1.25;
   color: #000;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Futura', sans-serif;
   font-style: normal;
   text-align: left;
   letter-spacing: 1px; }
@@ -109,7 +115,7 @@ hr {
 .logo {
   display: inline;
   padding-top: 20px;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Futura', sans-serif;
  }
 
 .content p {
