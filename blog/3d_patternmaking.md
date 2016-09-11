@@ -16,4 +16,4 @@
 
 8. [Tau Meta](http://www.taumeta.org/) blog post on creating a Pattern as an Inkscape Extension.
 
-9. [Clothhabit(http://clothhabit.com/pattern-drafting-software/) blog post on drafting patterns with software. 
+9. [Clothhabit](http://clothhabit.com/pattern-drafting-software/) blog post on drafting patterns with software. 
