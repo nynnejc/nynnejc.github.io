@@ -49,8 +49,8 @@ input, select { vertical-align: middle; }
 
 
 @font-face { font-family: Futura_ICG; src: url('../fonts/futura/Futura_ICG.ttf'); }
-@font-face { font-family: FuturaHeavy; src: url('../fonts/futura/FuturaHeavy.ttf'); } 
-@font-face { font-family: FuturaLight; src: url('../fonts/futura/FuturaLight.ttf'); } 
+@font-face { font-family: Futura_Heavy; src: url('../fonts/futura/Futura_Heavy.ttf'); } 
+@font-face { font-family: Futura_Light; src: url('../fonts/futura/Futura_Light.ttf'); } 
 
 
 
@@ -120,16 +120,6 @@ hr {
     .x_large a:hover {
       color: #FC571F; }
 
-.logo {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  font-family: 'FuturaLight', sans-serif;
- }
-
- .color-nav-links {
-
- }
-
 .content p {
   font-size: 1.5em; }
 
@@ -137,9 +127,12 @@ hr {
   text-align: center;
   margin-bottom: 0px;
   padding-bottom: 0px;
+  margin-top: 30%;
 }
 
-
+.content-section {
+  margin-top: 10px;
+}
 
 li {
   text-align: left;
@@ -150,8 +143,13 @@ footer {
   padding-bottom: 0px;
 }
 
-.logo_links a {
-  color: #483D8B;
+.navbar-header {
+  font-family: Futura_ICG;
+  width: 100%;
+}
+
+.navbar-header a {
+  color: #000;
   text-decoration: none;
   -o-transition:.5s;
   -ms-transition:.5s;
@@ -160,12 +158,25 @@ footer {
   transition:.5s;
 }
 
-.logo_links a:hover { 
+.navbar-header a:hover { 
   color: #FF00FF;
   text-decoration: none;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
 
+.quote {
+  font-family: Futura_ICG;
+  color:#000;
+  font-size: 18px;
+  text-align: center;
+  margin:0 auto;
+  padding-bottom: 5px; 
+  margin-right: 3%;
+}
 
 
 /*media-qery 768px*/
@@ -190,7 +201,6 @@ footer {
     line-height: 1.22222222; }
 
   .nav {
-    padding-top: 10px;
     text-decoration: none; } }
 
 
@@ -208,51 +218,15 @@ footer {
     font-size: 1.75em;
     line-height: 1.25; } }
 
-.subtitle {
-  border-top: 1px solid #000;
-  border-bottom: 1px solid #000; }
-
-  .main {
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: cover; }
-
 section {
-  width: 100%;
-  padding-bottom: 50px; }
+  width: 100%;}
 
 ul {
   list-style: none;
   margin: 0;
   padding: 0; }
 
-a {
-  color: ##FF4500;
-  text-decoration: none; }
-  a:hover {
-    color: #4B1A09; }
-
-
-header {
-  color: #FF4500;;
-  padding: 10px; }
-  header h2 {
-     }
-  header .nav {
-    color: #FF4500;
-    text-decoration: none;
-    text-align: right;
-    float: right;
-    display: inline;
-    width: 40%; }
-    header .nav a {
-      padding: 0 30px;
-      text-decoration: none; }
-
 .main_typography {
   padding-top: 100px; }
-
-.content-section {
-  padding-top: 10px; }
 }
 
