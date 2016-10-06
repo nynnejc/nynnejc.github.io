@@ -53,6 +53,301 @@ input, select { vertical-align: middle; }
 @font-face { font-family: Futura_Light; src: url('../fonts/futura/Futura_Light.ttf'); } 
 
 
+.element {
+  animation: pulse 45s infinite;
+  height: 100%;
+  padding-top: 30px;
+}
+
+
+
+   @keyframes pulse { 
+        0% {
+          background-color: #DADCE0;
+        }
+        1% {
+          background-color: #D7DAE0;
+        }
+        2% {
+          background-color: #D4D7E2;
+        }
+        3% {
+          background-color: #D1D4E2;
+        }
+        4% {
+          background-color: #CCD4E3;
+        }
+        5% {
+          background-color: #C7D3E5;
+        }
+        6% {
+          background-color: #C4D3E6;
+        }
+        7% {
+          background-color: #BFD3E7;
+        }
+        8% {
+          background-color: #BBD3E8;
+        }
+        9% {
+          background-color: #B4D4E9;
+        }
+        11% {
+          background-color: #ACD5EA;
+        }
+        12% {
+          background-color: #A5D5EB;
+        }
+        13% {
+          background-color: #A3D6EB;
+        }
+        14% {
+          background-color: #A0DAE8;
+        }
+        15% {
+          background-color: #9ADEE6;
+        }
+        16% {
+          background-color: #91E0E3;
+        }
+        17% {
+          background-color: #8BE2DF;
+        }
+        18% {
+          background-color: #89E4DC;
+        }
+        19% {
+          background-color: #87E6D8;
+        }
+        20% {
+          background-color: #85E9D2;
+        }
+        21% {
+          background-color: #82EBC7;
+        }
+        22% {
+          background-color: #81EBBB;
+        }
+        23% {
+          background-color: #80EBB9;
+        } 
+        24% {
+          background-color: #7FEBAF;
+        }
+        25% {
+          background-color: #7EEBA3;
+        }
+        26% {
+          background-color: #7EEE9B;
+        }
+        27% {
+          background-color: #7EF191;
+        }
+        28% {
+          background-color: #7EF584;
+        }
+        29% {
+          background-color: #7EF776;
+        }
+        30% {
+          background-color: #91F575;
+        }
+        33% {
+          background-color: #A5F374;
+        }
+        34% {
+          background-color: #BAEE73;
+        }
+        35% {
+          background-color: #C0EB72;
+        }
+        36% {
+          background-color: #CFEB70;
+        }
+        37% {
+          background-color: #D9EB6E;
+        }
+        38% {
+          background-color: #E3EB6C;
+        }
+        39% {
+          background-color: #E7EB61;
+        }
+        40% {
+          background-color: #E8E85F;
+        }
+        41% {
+          background-color: #EAE25D;
+        }
+        42% {
+          background-color: #EBDF5B;
+        }
+        43% {
+          background-color: #EBDA5B;
+        }
+        44% {
+          background-color: #EBD15A;
+        }
+        45%{
+          background-color: #EBC559;
+        }
+        46% {
+          background-color: #EBBC58;
+        }
+        47% {
+          background-color: #EBB457;
+        }
+        48% {
+          background-color: #EBAA53;
+        }
+        49% {
+          background-color: #EBA04D;
+        }
+        50% {
+          background-color: #EB9948;
+        }
+        51% {
+          background-color: #EB9041;
+        }
+        52% {
+          background-color: #EB853F;
+        }
+        53% {
+          background-color: #EB813B;
+        }
+        54% {
+          background-color: #EB7837;
+        }
+        55% {
+          background-color: #EB7035;
+        }
+        56% {
+          background-color: #EB6735;
+        }
+        57% {
+          background-color: #EB6235;
+        }
+        58% {
+          background-color: #EB5D36;
+        }
+        59% {
+          background-color: #EB5936;
+        }
+        60% {
+          background-color: #EB573B;
+        }
+        61% {
+          background-color: #EB553D;
+        }
+        62% {
+          background-color: #EB553D;
+        }
+        63% {
+          background-color: #EB5045;
+        }
+        64% {
+          background-color: #EB514E;
+        }
+        65% {
+          background-color: #EB5354;
+        }
+        66% {
+          background-color: #EB545C;
+        }
+        67% {
+          background-color: #EB5560;
+        }
+        68% {
+          background-color: #EB576E;
+        }
+        69% {
+          background-color: #EB5979;
+        }
+        70% {
+          background-color: #EB5A84;
+        }
+        71% {
+          background-color: #EB5C8F;
+        }
+        72% {
+          background-color: #EB5F9C;
+        }
+        73% {
+          background-color: #EB60AC;
+        }
+        74% {
+          background-color: #EB62BA;
+        }
+        75% {
+          background-color: #EB65C3;
+        }
+        76% {
+          background-color: #EB67CB;
+        }
+        77% {
+          background-color: #EB6AD2;
+        }
+        78% {
+          background-color: #EB6DDC;
+        }
+        79% {
+          background-color: #EB72E2;
+        }
+        80% {
+          background-color: #EB7BE4;
+        }
+        81% {
+          background-color: #EB83E6;
+        }
+        82% {
+          background-color: #EB8DE9;
+        } 
+        83% {
+          background-color: #EA90EB;
+        }
+        84% {
+          background-color: #E49BEB;
+        }
+        85% {
+          background-color: #DBA3EB;
+        }
+        86% {
+          background-color: #D1A9EB;
+        }
+        88% {
+          background-color: #C8ADEB;
+        }
+        91% {
+          background-color: #CBB4EB;
+        }
+        92% {
+          background-color: #CDBEEB;
+        }
+        93% {
+          background-color: #CFCAEB;
+        }
+        94% {
+          background-color: #D1D0EB;
+        }
+        95% {
+          background-color: #D4D3EB;
+        }
+        96% {
+          background-color: #D7D8EB;
+        }
+        97% {
+          background-color: #DADCEB;
+        }
+        98% {
+          background-color: #DADCE9;
+        }
+        99% {
+          background-color: #DADCE6;
+        }
+        100% {
+          background-color: #DADCE3;
+        }
+      }
 
 
 /*normal*/
@@ -61,7 +356,7 @@ html {
 
 body {
   display: inline;
-  height: 100%;
+  height: 90%;
   margin: 0;
   padding: 0;
   font-size: 100%;
@@ -126,8 +421,14 @@ hr {
 .copyright-name-date {
   text-align: center;
   margin-bottom: 0px;
-  padding-bottom: 0px;
-  margin-top: 30%;
+  padding-bottom: 10px;
+  margin-top: 40%;
+}
+
+.copyright-name-date-index{
+  text-align: center;
+  margin-top: 65%;
+  margin-bottom: 0px;
 }
 
 .content-section {
@@ -148,7 +449,7 @@ footer {
   width: 100%;
 }
 
-.navbar-header a {
+.navbar-header-index a {
   color: #000;
   text-decoration: none;
   -o-transition:.5s;
@@ -158,24 +459,79 @@ footer {
   transition:.5s;
 }
 
-.navbar-header a:hover { 
+.navbar-header-index a:hover { 
   color: #FF00FF;
   text-decoration: none;
 }
+
+.navbar-header-about a {
+  color: #000;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.navbar-header-about a:hover { 
+  color: blue;
+  text-decoration: none;
+}
+
+.navbar-header-projects a {
+  color: #000;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.navbar-header-projects a:hover { 
+  color: #9285FB;
+  text-decoration: none;
+}
+
 
 .row {
   margin-left: 0;
   margin-right: 0;
 }
 
-.quote {
+.about-quote {
   font-family: Futura_ICG;
   color:#000;
   font-size: 18px;
-  text-align: center;
+  text-align: left;
   margin:0 auto;
   padding-bottom: 5px; 
   margin-right: 3%;
+  margin-top: 20%;
+}
+
+.index-nav-background{
+  background-color: ;
+}
+
+.about-nav-background{
+  background-color: red;
+}
+.about-background{
+  background-color: white;
+}
+
+.projects-nav-background{
+  background-color: blue;
+}
+
+.projects-background{
+  background-color: white;
+}
+
+.social-icons{
+ 
 }
 
 
@@ -201,7 +557,11 @@ footer {
     line-height: 1.22222222; }
 
   .nav {
-    text-decoration: none; } }
+    text-decoration: none; }
+
+  .nav-name-justification{
+    text-align: left;
+    } }
 
 
 /*media-qery 992px*/
@@ -229,4 +589,6 @@ ul {
 .main_typography {
   padding-top: 100px; }
 }
+
+
 
