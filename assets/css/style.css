@@ -429,6 +429,7 @@ hr {
   text-align: center;
   margin-top: 65%;
   margin-bottom: 0px;
+  padding-bottom: 10px;
 }
 
 .content-section {
@@ -475,7 +476,7 @@ footer {
 }
 
 .navbar-header-about a:hover { 
-  color: blue;
+  color: #e7ef4c;
   text-decoration: none;
 }
 
@@ -490,7 +491,7 @@ footer {
 }
 
 .navbar-header-projects a:hover { 
-  color: #9285FB;
+  color: #4cdde0;
   text-decoration: none;
 }
 
@@ -511,6 +512,11 @@ footer {
   margin-top: 20%;
 }
 
+.about-quote a:hover {
+  text-decoration: none;
+  color: #71f797;
+}
+
 .index-nav-background{
   background-color: ;
 }
@@ -528,10 +534,6 @@ footer {
 
 .projects-background{
   background-color: white;
-}
-
-.social-icons{
- 
 }
 
 
