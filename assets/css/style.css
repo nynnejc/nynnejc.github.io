@@ -536,6 +536,14 @@ footer {
   background-color: white;
 }
 
+@media (min-width: 544px) {
+  .nav {
+    text-align: left;
+  }
+  .copyright-name-date-index{
+    margin-top: 80%;
+  }
+ }
 
 /*media-qery 768px*/
 @media (min-width: 768px) {
@@ -591,6 +599,7 @@ ul {
 .main_typography {
   padding-top: 100px; }
 }
+
 
 
 
