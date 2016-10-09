@@ -432,6 +432,13 @@ hr {
   padding-bottom: 10px;
 }
 
+.copyright-name-date-projects {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
 .content-section {
   margin-top: 10px;
 }
@@ -480,6 +487,21 @@ footer {
   text-decoration: none;
 }
 
+.navbar-header-notes a {
+  color: #000;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.navbar-header-notes a:hover { 
+  color: #f73900;
+  text-decoration: none;
+}
+
 .navbar-header-projects a {
   color: #000;
   text-decoration: none;
@@ -491,7 +513,7 @@ footer {
 }
 
 .navbar-header-projects a:hover { 
-  color: #4cdde0;
+  color: blue;
   text-decoration: none;
 }
 
@@ -517,6 +539,24 @@ footer {
   color: #71f797;
 }
 
+.projects-description {
+  font-family: Futura_ICG;
+  color:#000;
+  font-size: 18px;
+  text-align: left;
+  margin: 15px;
+}
+
+.projects-description a:hover {
+  text-decoration: none;
+  color: #71f797;
+}
+
+.projects-headline {
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
 .index-nav-background{
   background-color: ;
 }
@@ -528,8 +568,16 @@ footer {
   background-color: white;
 }
 
+.notes-nav-background{
+  background-color: #fce8e9;
+}
+
+.notes-background{
+  background-color: white;
+}
+
 .projects-nav-background{
-  background-color: blue;
+  background-color: #edf1f7;
 }
 
 .projects-background{
@@ -600,6 +648,11 @@ ul {
   padding-top: 100px; }
 }
 
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
 
 
 
