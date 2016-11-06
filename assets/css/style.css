@@ -420,6 +420,7 @@ hr {
 
 .copyright-name-date {
   text-align: center;
+  font-family: Futura_ICG;
   margin-bottom: 0px;
   padding-bottom: 10px;
   margin-top: 40%;
@@ -427,6 +428,7 @@ hr {
 
 .copyright-name-date-index{
   text-align: center;
+  font-family: Futura_ICG;
   margin-top: 65%;
   margin-bottom: 0px;
   padding-bottom: 10px;
@@ -434,6 +436,7 @@ hr {
 
 .copyright-name-date-projects {
   text-align: center;
+  font-family: Futura_ICG;
   margin-top: 10%;
   margin-bottom: 0px;
   padding-bottom: 10px;
@@ -516,7 +519,6 @@ footer {
   color: blue;
   text-decoration: none;
 }
-
 
 .row {
   margin-left: 0;
@@ -654,5 +656,60 @@ ul {
     max-width: 100%;
 }
 
+/*sidebar in Notes*/
+#wrapper {
+  padding-left: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper {
+  margin-right: -250px;
+  right: 250px;
+  width: 250px;
+  background: #fce8e9;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: Futura_ICG;
+  margin: 15px;
+}
+
+@media only screen and (max-width : 750px) {
+
+    #wrapper {
+      padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+      right: 0;
+    }
+
+    #wrapper.active {
+      position: fixed;
+      right: 50px;
+    }
+
+    #wrapper.active #sidebar-wrapper {
+      right: 50px;
+      width: 50px;
+      transition: all 0.4s ease 0s;
+    }
+
+}
 
 
