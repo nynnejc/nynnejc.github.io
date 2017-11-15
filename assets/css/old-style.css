@@ -1,0 +1,708 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+
+@font-face { font-family: Futura_ICG; src: url('../fonts/futura/Futura_ICG.ttf'); }
+@font-face { font-family: Futura_Heavy; src: url('../fonts/futura/Futura_Heavy.ttf'); } 
+@font-face { font-family: Futura_Light; src: url('../fonts/futura/Futura_Light.ttf'); } 
+
+
+.element {
+  animation: pulse 45s infinite;
+  height: 100%;
+  padding-top: 30px;
+}
+
+
+
+   @keyframes pulse { 
+        0% {
+          background-color: #DADCE0;
+        }
+        1% {
+          background-color: #D7DAE0;
+        }
+        2% {
+          background-color: #D4D7E2;
+        }
+        3% {
+          background-color: #D1D4E2;
+        }
+        4% {
+          background-color: #CCD4E3;
+        }
+        5% {
+          background-color: #C7D3E5;
+        }
+        6% {
+          background-color: #C4D3E6;
+        }
+        7% {
+          background-color: #BFD3E7;
+        }
+        8% {
+          background-color: #BBD3E8;
+        }
+        9% {
+          background-color: #B4D4E9;
+        }
+        11% {
+          background-color: #ACD5EA;
+        }
+        12% {
+          background-color: #A5D5EB;
+        }
+        13% {
+          background-color: #A3D6EB;
+        }
+        14% {
+          background-color: #A0DAE8;
+        }
+        15% {
+          background-color: #9ADEE6;
+        }
+        16% {
+          background-color: #91E0E3;
+        }
+        17% {
+          background-color: #8BE2DF;
+        }
+        18% {
+          background-color: #89E4DC;
+        }
+        19% {
+          background-color: #87E6D8;
+        }
+        20% {
+          background-color: #85E9D2;
+        }
+        21% {
+          background-color: #82EBC7;
+        }
+        22% {
+          background-color: #81EBBB;
+        }
+        23% {
+          background-color: #80EBB9;
+        } 
+        24% {
+          background-color: #7FEBAF;
+        }
+        25% {
+          background-color: #7EEBA3;
+        }
+        26% {
+          background-color: #7EEE9B;
+        }
+        27% {
+          background-color: #7EF191;
+        }
+        28% {
+          background-color: #7EF584;
+        }
+        29% {
+          background-color: #7EF776;
+        }
+        30% {
+          background-color: #91F575;
+        }
+        33% {
+          background-color: #A5F374;
+        }
+        34% {
+          background-color: #BAEE73;
+        }
+        35% {
+          background-color: #C0EB72;
+        }
+        36% {
+          background-color: #CFEB70;
+        }
+        37% {
+          background-color: #D9EB6E;
+        }
+        38% {
+          background-color: #E3EB6C;
+        }
+        39% {
+          background-color: #E7EB61;
+        }
+        40% {
+          background-color: #E8E85F;
+        }
+        41% {
+          background-color: #EAE25D;
+        }
+        42% {
+          background-color: #EBDF5B;
+        }
+        43% {
+          background-color: #EBDA5B;
+        }
+        44% {
+          background-color: #EBD15A;
+        }
+        45%{
+          background-color: #EBC559;
+        }
+        46% {
+          background-color: #EBBC58;
+        }
+        47% {
+          background-color: #EBB457;
+        }
+        48% {
+          background-color: #EBAA53;
+        }
+        49% {
+          background-color: #EBA04D;
+        }
+        50% {
+          background-color: #EB9948;
+        }
+        51% {
+          background-color: #EB9041;
+        }
+        52% {
+          background-color: #EB853F;
+        }
+        53% {
+          background-color: #EB813B;
+        }
+        54% {
+          background-color: #EB7837;
+        }
+        55% {
+          background-color: #EB7035;
+        }
+        56% {
+          background-color: #EB6735;
+        }
+        57% {
+          background-color: #EB6235;
+        }
+        58% {
+          background-color: #EB5D36;
+        }
+        59% {
+          background-color: #EB5936;
+        }
+        60% {
+          background-color: #EB573B;
+        }
+        61% {
+          background-color: #EB553D;
+        }
+        62% {
+          background-color: #EB553D;
+        }
+        63% {
+          background-color: #EB5045;
+        }
+        64% {
+          background-color: #EB514E;
+        }
+        65% {
+          background-color: #EB5354;
+        }
+        66% {
+          background-color: #EB545C;
+        }
+        67% {
+          background-color: #EB5560;
+        }
+        68% {
+          background-color: #EB576E;
+        }
+        69% {
+          background-color: #EB5979;
+        }
+        70% {
+          background-color: #EB5A84;
+        }
+        71% {
+          background-color: #EB5C8F;
+        }
+        72% {
+          background-color: #EB5F9C;
+        }
+        73% {
+          background-color: #EB60AC;
+        }
+        74% {
+          background-color: #EB62BA;
+        }
+        75% {
+          background-color: #EB65C3;
+        }
+        76% {
+          background-color: #EB67CB;
+        }
+        77% {
+          background-color: #EB6AD2;
+        }
+        78% {
+          background-color: #EB6DDC;
+        }
+        79% {
+          background-color: #EB72E2;
+        }
+        80% {
+          background-color: #EB7BE4;
+        }
+        81% {
+          background-color: #EB83E6;
+        }
+        82% {
+          background-color: #EB8DE9;
+        } 
+        83% {
+          background-color: #EA90EB;
+        }
+        84% {
+          background-color: #E49BEB;
+        }
+        85% {
+          background-color: #DBA3EB;
+        }
+        86% {
+          background-color: #D1A9EB;
+        }
+        88% {
+          background-color: #C8ADEB;
+        }
+        91% {
+          background-color: #CBB4EB;
+        }
+        92% {
+          background-color: #CDBEEB;
+        }
+        93% {
+          background-color: #CFCAEB;
+        }
+        94% {
+          background-color: #D1D0EB;
+        }
+        95% {
+          background-color: #D4D3EB;
+        }
+        96% {
+          background-color: #D7D8EB;
+        }
+        97% {
+          background-color: #DADCEB;
+        }
+        98% {
+          background-color: #DADCE9;
+        }
+        99% {
+          background-color: #DADCE6;
+        }
+        100% {
+          background-color: #DADCE3;
+        }
+      }
+
+
+/*normal*/
+html {
+  font-size: 14px; }
+
+body {
+  display: inline;
+  height: 90%;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  line-height: 1.25;
+  color: #000;
+  font-family: 'Futura_ICG', sans-serif;
+  font-style: normal;
+  text-align: left;
+  letter-spacing: 1px; }
+
+body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
+  font-size-adjust: 0.5; }
+
+p {
+  font-size: 1.2em; }
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25; }
+
+h2 {
+  font-size: 1.625em;
+  line-height: 1.15384615; }
+
+h3 {
+  font-size: 1.375em;
+  line-height: 1.13636364; }
+
+h4 {
+  font-size: 1.125em;
+  line-height: 1.11111111; }
+
+hr {
+  color: #f00;
+  background-color: #f00;
+  height: 5px;
+}
+
+
+.x_large {
+  font-size: 4em;
+  margin: 0;
+  line-height: 1;
+  text-align: left; }
+  .x_large a {
+    color: white; }
+    .x_large a:hover {
+      color: #FC571F; }
+
+
+.copyright-name-date {
+  text-align: center;
+  font-family: Futura_ICG;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  margin-top: 40%;
+}
+
+.copyright-name-date-index{
+  text-align: center;
+  font-family: Futura_ICG;
+  margin-top: 65%;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+.copyright-name-date-projects {
+  text-align: center;
+  font-family: Futura_ICG;
+  margin-top: 10%;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+.content-section {
+  margin-top: 10px;
+}
+
+li {
+  text-align: left;
+  font-size: 1.25em; 
+}
+
+footer {
+  padding-bottom: 0px;
+}
+
+.navbar-header {
+  font-family: Futura_ICG;
+  width: 100%;
+}
+
+.navbar-header-index a {
+  color: #000;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.navbar-header-index a:hover { 
+  color: #FF00FF;
+  text-decoration: none;
+}
+
+.navbar-header-about a {
+  color: #000;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.navbar-header-about a:hover { 
+  color: #e7ef4c;
+  text-decoration: none;
+}
+
+.navbar-header-notes a {
+  color: #000;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.navbar-header-notes a:hover { 
+  color: #f73900;
+  text-decoration: none;
+}
+
+.navbar-header-projects a {
+  color: #000;
+  text-decoration: none;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+}
+
+.navbar-header-projects a:hover { 
+  color: blue;
+  text-decoration: none;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.about-quote {
+  font-family: Futura_ICG;
+  color:#000;
+  font-size: 18px;
+  text-align: left;
+  margin:0 auto;
+  padding-bottom: 5px; 
+  margin-right: 3%;
+  margin-top: 20%;
+}
+
+.about-quote a:hover {
+  text-decoration: none;
+  color: #71f797;
+}
+
+.projects-description {
+  font-family: Futura_ICG;
+  color:#000;
+  font-size: 18px;
+  text-align: left;
+  margin: 15px;
+}
+
+.projects-description a:hover {
+  text-decoration: none;
+  color: #71f797;
+}
+
+.projects-headline {
+  margin-top: 7%;
+  margin-bottom: 5%;
+}
+
+.index-nav-background{
+  background-color: ;
+}
+
+.about-nav-background{
+  background-color: red;
+}
+.about-background{
+  background-color: white;
+}
+
+.notes-nav-background{
+  background-color: #fce8e9;
+}
+
+.notes-background{
+  background-color: white;
+}
+
+.projects-nav-background{
+  background-color: #edf1f7;
+}
+
+.projects-background{
+  background-color: white;
+}
+
+@media (min-width: 544px) {
+  .nav {
+    text-align: left;
+  }
+  .copyright-name-date-index{
+    margin-top: 80%;
+  }
+ }
+
+/*media-qery 768px*/
+@media (min-width: 768px) {
+  body {
+    font-size: 1em;
+    line-height: 1.375; }
+
+  h1 {
+    font-size: 2.5em;
+    line-height: 1.125; }
+
+  h2 {
+    font-size: 2em;
+    line-height: 1.25; }
+
+  h3 {
+    font-size: 1.5em;
+    line-height: 1.25; }
+
+  h4 {
+    line-height: 1.22222222; }
+
+  .nav {
+    text-decoration: none; }
+
+  .nav-name-justification{
+    text-align: left;
+    } }
+
+
+/*media-qery 992px*/
+@media (min-width: 992px) {
+  h1 {
+    font-size: 3em;
+    line-height: 1.05; }
+
+  h2 {
+    font-size: 2.25em;
+    line-height: 1.25; }
+
+  h3 {
+    font-size: 1.75em;
+    line-height: 1.25; } }
+
+section {
+  width: 100%;}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.main_typography {
+  padding-top: 100px; }
+}
+
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+/*sidebar in Notes*/
+#wrapper {
+  padding-left: 250px;
+  transition: all 0.4s ease 0s;
+}
+
+#sidebar-wrapper {
+  margin-right: -250px;
+  right: 250px;
+  width: 250px;
+  background: white;
+  position: fixed;
+  height: 100%;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+
+#page-content-wrapper {
+  width: 100%;
+}
+
+.sidebar-nav {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: Futura_ICG;
+  margin: 15px;
+}
+
+@media only screen and (max-width : 750px) {
+
+    #wrapper {
+      padding-left: 0;
+    }
+
+    #sidebar-wrapper {
+      right: 0;
+    }
+
+    #wrapper.active {
+      position: fixed;
+      right: 50px;
+    }
+
+    #wrapper.active #sidebar-wrapper {
+      right: 50px;
+      width: 50px;
+      transition: all 0.4s ease 0s;
+    }
+
+}
+
+
