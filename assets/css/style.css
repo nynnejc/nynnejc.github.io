@@ -1,4 +1,3 @@
-
 html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
@@ -41,10 +40,10 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 input, select { vertical-align: middle; }
 
 
-
-@font-face { font-family: Futura_ICG; src: url('../fonts/futura/Futura_ICG.ttf'); }
-@font-face { font-family: Futura_Heavy; src: url('../fonts/futura/Futura_Heavy.ttf'); } 
-@font-face { font-family: Futura_Light; src: url('../fonts/futura/Futura_Light.ttf'); } 
+@font-face { font-family: HelveticaNeueLt; src: url('../fonts/helveticaneue/HelveticaNeueLt.ttf'); }
+@font-face { font-family: HelveticaNeueHv; src: url('../fonts/helveticaneue/HelveticaNeueHv.ttf'); }
+@font-face { font-family: HelveticaNeue; src: url('../fonts/helveticaneue/HelveticaNeue.ttf'); }
+@font-face { font-family: HelveticaNeueBlackCond; src: url('../fonts/helveticaneue/HelveticaNeueBlackCond.ttf'); }
 
 /*normal*/
 html {
@@ -58,7 +57,7 @@ body {
   font-size: 100%;
   line-height: 1.25;
   color: #000;
-  font-family: 'Futura_ICG', sans-serif;
+  font-family: 'HelveticaNeueLt', sans-serif;
   font-style: normal;
   text-align: left;
   letter-spacing: 1px; }
@@ -109,7 +108,7 @@ hr {
 
 .copyright-name-date {
   text-align: center;
-  font-family: Futura_ICG;
+  font-family: 'HelveticaNeueHv', sans-serif;
   margin-bottom: 0px;
   padding-bottom: 10px;
   margin-top: 30%;
@@ -128,10 +127,11 @@ footer {
   padding-bottom: 0px;
 }
 
-.navbar-header {
-  font-family: Futura_ICG;
-  width: 100%;
-}
+
+.nav-name-justification{
+   text-align: left;
+   font-family: 'HelveticaNeueHv', sans-serif;
+} 
 
 .navbar-header-index a {
   color: #000;
@@ -155,7 +155,7 @@ footer {
 }
 
 .about-quote {
-  font-family: Futura_ICG;
+  font-family: 'HelveticaNeueLt', sans-serif;
   color:#000;
   font-size: 18px;
   text-align: left;
@@ -171,93 +171,9 @@ a.link1 {
   color:#808080;
 }
 a:hover.link1 {
-  color: #da0036;
+  color: #39ff14;
   text-decoration: none;
 }
-
-a.link2 {
-  color:#808080;
-}
-a:hover.link2 {
-  color: #71f797;
-  text-decoration: none;
-}
-
-a.link3 {
-  color:#808080;
-}
-a:hover.link3 {
-  color: #ffff00;
-  text-decoration: none;
-}
-
-a.link4 {
-  color:#808080;
-}
-a:hover.link4 {
-  color: #ff3c3c;
-  text-decoration: none;
-}
-
-a.link5 {
-  color:#808080;
-}
-a:hover.link5 {
-  color: #ffc000;
-  text-decoration: none;
-}
-
-a.link6 {
-  color:#808080;
-}
-a:hover.link6 {
-  color: #0000ff;
-  text-decoration: none;
-}
-
-a.link7 {
-  color:#808080;
-}
-a:hover.link7 {
-  color: #01c1ff;
-  text-decoration: none;
-}
-
-a.link8 {
-  color:#808080;
-}
-a:hover.link8 {
-  color: #00ff2b;
-  text-decoration: none;
-}
-
-
-
-.teaching {
-  font-family: Futura_ICG;
-  color:#000;
-  font-size: 18px;
-  text-align: left;
-  margin:0 auto;
-  padding-bottom: 5px; 
-  margin-right: 3%;
-  margin-top: 20%;
-  text-decoration: none;
-}
-
-.projects-description {
-  font-family: Futura_ICG;
-  color:#000;
-  font-size: 18px;
-  text-align: left;
-  margin: 15px;
-}
-
-.projects-description a:hover {
-  text-decoration: none;
-  color: #71f797;
-}
-
 
 @media (min-width: 544px) {
   .nav {
@@ -292,9 +208,7 @@ a:hover.link8 {
   .nav {
     text-decoration: none; }
 
-  .nav-name-justification{
-    text-align: left;
-    } }
+}
 
 
 /*media-qery 992px*/
@@ -313,6 +227,7 @@ a:hover.link8 {
   }
 
 section {
-  width: 100%;}
+  width: 100%;
+}
 
 
