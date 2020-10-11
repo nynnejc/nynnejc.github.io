@@ -39,101 +39,33 @@ hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin:
 
 input, select { vertical-align: middle; }
 
-
-@font-face { font-family: HelveticaNeueLt; src: url('../fonts/helveticaneue/HelveticaNeueLt.ttf'); }
-@font-face { font-family: HelveticaNeueHv; src: url('../fonts/helveticaneue/HelveticaNeueHv.ttf'); }
-@font-face { font-family: HelveticaNeue; src: url('../fonts/helveticaneue/HelveticaNeue.ttf'); }
-@font-face { font-family: HelveticaNeueBlackCond; src: url('../fonts/helveticaneue/HelveticaNeueBlackCond.ttf'); }
-
 /*normal*/
 html {
   font-size: 14px; }
 
 body {
-  display: inline;
-  height: 90%;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction:column; 
+  height:100vh; 
   font-size: 100%;
   line-height: 1.25;
   color: #000;
-  font-family: 'HelveticaNeueLt', sans-serif;
+  font-family: monospace;
   font-style: normal;
   text-align: left;
-  letter-spacing: 1px; }
-
-body, caption, th, td, input, textarea, select, option, legend, fieldset, h1, h2, h3, h4, h5, h6 {
-  font-size-adjust: 0.5; }
-
-p {
-  font-size: 1.2em; }
-
-a {
+  letter-spacing: 1px;
   text-decoration: none;
 }
 
-h1 {
-  font-size: 2em;
-  line-height: 1.25; }
-
-h2 {
-  font-size: 1.625em;
-  line-height: 1.15384615; }
-
-h3 {
-  font-size: 1.375em;
-  line-height: 1.13636364; }
-
-h4 {
-  font-size: 1.125em;
-  line-height: 1.11111111; }
-
-hr {
-  color: #f00;
-  background-color: #f00;
-  height: 5px;
-}
-
-
-.x_large {
-  font-size: 4em;
-  margin: 0;
-  line-height: 1;
-  text-align: left; }
-  .x_large a {
-    color: white; }
-    .x_large a:hover {
-      color: #FC571F; }
-
-
-.copyright-name-date {
-  text-align: center;
-  font-family: 'HelveticaNeueHv', sans-serif;
-  margin-bottom: 0px;
-  padding-bottom: 10px;
-  margin-top: 30%;
-}
-
-.content-section {
-  margin-top: 10px;
-}
-
-li {
-  text-align: left;
-  font-size: 1.25em; 
-}
-
-footer {
-  padding-bottom: 0px;
-}
-
-
-.nav-name-justification{
+.navbar {
    text-align: left;
-   font-family: 'HelveticaNeueHv', sans-serif;
+   font-family: monospace;
+   font-size: 22px;
+   margin-left: 3%;
+   margin-top: 1%;
 } 
 
-.navbar-header-index a {
+.navbar a {
   color: #000;
   text-decoration: none;
   -o-transition:.5s;
@@ -143,25 +75,20 @@ footer {
   transition:.5s;
 }
 
-.navbar-header-index a:hover { 
+.navbar a:hover { 
   color: #FF00FF;
   text-decoration: none;
 }
 
-
-.row {
-  margin-left: 0;
-  margin-right: 0;
-}
-
 .about-quote {
-  font-family: 'HelveticaNeueLt', sans-serif;
+  font-family: monospace;
   color:#000;
   font-size: 18px;
   text-align: left;
   margin:0 auto;
   padding-bottom: 5px; 
   margin-right: 3%;
+  margin-left: 3%;
   margin-top: 20%;
   text-decoration: none;
 }
@@ -175,59 +102,19 @@ a:hover.link1 {
   text-decoration: none;
 }
 
-@media (min-width: 544px) {
-  .nav {
-    text-align: left;
-  }
-  .copyright-name-date-index{
-    margin-top: 80%;
-  }
- }
-
-/*media-qery 768px*/
-@media (min-width: 768px) {
-  body {
-    font-size: 1em;
-    line-height: 1.375; }
-
-  h1 {
-    font-size: 2.5em;
-    line-height: 1.125; }
-
-  h2 {
-    font-size: 2em;
-    line-height: 1.25; }
-
-  h3 {
-    font-size: 1.5em;
-    line-height: 1.25; }
-
-  h4 {
-    line-height: 1.22222222; }
-
-  .nav {
-    text-decoration: none; }
-
+.social-list {
+  list-style-type: none;
+  margin-top: 1%;
 }
 
-
-/*media-qery 992px*/
-@media (min-width: 992px) {
-  h1 {
-    font-size: 3em;
-    line-height: 1.05; }
-
-  h2 {
-    font-size: 2.25em;
-    line-height: 1.25; }
-
-  h3 {
-    font-size: 1.75em;
-    line-height: 1.25; } 
-  }
-
-section {
-  width: 100%;
+.copyright-name-date {
+  text-align: left;
+  font-family: monospace;
+  margin-left: 3%;
+  text-decoration: none;
+  margin-top: 20%;
 }
 
-
+footer {
+  margin-top:auto;
+}
