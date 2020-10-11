@@ -96,6 +96,7 @@ body {
 
 a.link1 {
   color:#808080;
+  text-decoration: none;
 }
 a:hover.link1 {
   color: #39ff14;
