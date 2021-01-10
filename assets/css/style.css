@@ -1,12 +1,72 @@
-html, body, div, span, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
-small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -15,38 +75,84 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
-blockquote, q { quotes: none; }
+blockquote,
+q {
+  quotes: none;
+}
 
-blockquote:before, blockquote:after,
-q:before, q:after { content: ""; content: none; }
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
 
-ins { background-color: #ff9; color: #000; text-decoration: none; }
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
 
-mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
 
-del { text-decoration: line-through; }
+del {
+  text-decoration: line-through;
+}
 
-abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
 
-table { border-collapse: collapse; border-spacing: 0; }
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
 
-hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
 
-input, select { vertical-align: middle; }
+input,
+select {
+  vertical-align: middle;
+}
 
 /*normal*/
 html {
-  font-size: 14px; }
+  font-size: 14px;
+}
 
 body {
   display: flex;
-  flex-direction:column; 
-  height:100vh; 
+  flex-direction: column;
+  height: 100vh;
   font-size: 100%;
   line-height: 1.25;
   color: #000;
@@ -58,48 +164,63 @@ body {
 }
 
 .navbar {
-   text-align: left;
-   font-family: monospace;
-   font-size: 22px;
-   margin-left: 3%;
-   margin-top: 1%;
-} 
+  text-align: left;
+  font-family: monospace;
+  font-size: 22px;
+  margin-left: 3%;
+  margin-top: 1%;
+}
 
 .navbar a {
   color: #000;
   text-decoration: none;
-  -o-transition:.5s;
-  -ms-transition:.5s;
-  -moz-transition:.5s;
-  -webkit-transition:.5s;
-  transition:.5s;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
-.navbar a:hover { 
-  color: #FF00FF;
+.navbar a:hover {
+  color: #ff00ff;
   text-decoration: none;
 }
 
 .about-quote {
   font-family: monospace;
-  color:#000;
+  color: #000;
   font-size: 18px;
   text-align: left;
-  margin:0 auto;
-  padding-bottom: 5px; 
+  margin: 0 auto;
   margin-right: 3%;
   margin-left: 3%;
-  margin-top: 20%;
+  margin-top: 8%;
   text-decoration: none;
 }
 
+.more {
+  margin-top: 2%;
+}
+
+button {
+  margin-bottom: 3%;
+}
 
 a.link1 {
-  color:#808080;
+  color: #808080;
   text-decoration: none;
 }
 a:hover.link1 {
   color: #39ff14;
+  text-decoration: none;
+}
+
+a.link2 {
+  color: #808080;
+  text-decoration: none;
+}
+a:hover.link2 {
+  color: #ff99ff;
   text-decoration: none;
 }
 
@@ -108,14 +229,31 @@ a:hover.link1 {
   margin-top: 1%;
 }
 
+.less-list {
+  list-style-type: none;
+}
+
+.less {
+  font-family: monospace;
+  color: #000;
+  font-size: 18px;
+  text-align: left;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  margin-right: 3%;
+  margin-left: 3%;
+  margin-top: 8%;
+  text-decoration: none;
+}
+
 .copyright-name-date {
   text-align: left;
   font-family: monospace;
   margin-left: 3%;
   text-decoration: none;
-  margin-top: 20%;
+  margin-top: 3%;
 }
 
 footer {
-  margin-top:auto;
+  margin-top: auto;
 }
